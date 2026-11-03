@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "source": "公开版自带一个虚构示例项目；删除它不影响其他功能。",
+  "projects": [
+    {
+      "id": "example-project",
+      "name": "示例项目：一维热传导求解器的网格收敛（虚构）",
+      "kind": "research",
+      "scope": "example",
+      "aliases": ["example", "heat solver", "grid convergence"],
+      "plan": [],
+      "updated_at": "2026-10-03T12:00:00.000Z",
+      "files": [
+        { "title": "项目框架", "path": "FRAMEWORK.md", "description": "项目说明、逻辑组织和时间日志；虚构示例，展示框架的写法。" },
+        { "title": "收敛性测试脚本", "path": "analysis/convergence.mjs", "description": "显式差分求解一维热传导方程并计算各网格的最大误差；node 直接运行。" },
+        { "title": "收敛性结果表", "path": "data/processed/convergence.csv", "description": "N、h、dt、实际 r、最大误差；由上面的脚本生成，T-20261002-01 引用。" }
+      ]
+    }
+  ],
+  "links": [],
+  "dependencies": []
+}

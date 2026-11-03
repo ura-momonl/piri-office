@@ -1,0 +1,8 @@
+{
+  "library_home": "https://library.example.edu/",
+  "bookmarklet_help": "https://library.example.edu/help/off-campus-access/",
+  "proxy_login": "https://ezproxy.library.example.edu/login?qurl=",
+  "zotero_local": "http://127.0.0.1:23119/api/",
+  "automatic_download": false,
+  "zotero_native": false
+}

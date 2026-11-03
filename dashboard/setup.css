@@ -1,0 +1,14 @@
+.setup-step{border-top:1px solid var(--border);margin-top:20px;padding-top:18px}
+.setup-step h3{font-size:16px;margin-bottom:12px}
+.setup-step label{display:block;margin-top:12px}
+.setup-step input,.setup-step select,[data-setup-provider]{max-width:560px}
+.setup-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0}
+.setup-actions button{width:auto;margin:0}
+.setup-actions a{font-size:13px}
+.setup-step small{display:block;margin-top:8px}
+.setup-message{white-space:pre-wrap;margin-top:18px;font-size:14px}
+.first-run{flex:none;margin:8px 18px 12px;padding:18px 20px;border:1px solid var(--green);border-radius:12px;background:var(--panel);font-size:14px}
+.first-run strong{display:block;font-size:16px;margin-bottom:5px}
+.first-run button{width:auto;margin:10px 0 0;padding:8px 14px;font-size:13px}
+@media(max-width:700px){.setup-actions{align-items:stretch}.setup-actions button{flex:1 1 170px}.first-run{margin:6px 8px;padding:14px}}
+.first-run{border-color:var(--green)}[data-setup-action="connect"],.first-run button{background:var(--green);border:1px solid var(--green);color:#fff;border-radius:9px;padding:9px 14px}[data-setup-action="connect"]:disabled{opacity:.55}

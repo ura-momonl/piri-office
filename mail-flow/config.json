@@ -1,0 +1,9 @@
+{
+  "account": "you@example.edu",
+  "timezone": "UTC",
+  "initialLookbackHours": 24,
+  "overlapMinutes": 20,
+  "pageSize": 20,
+  "maxPagesPerRun": 6,
+  "replyTransport": "graph"
+}

@@ -1,0 +1,42 @@
+{
+  "_说明": "发现配置。程序做抓取、去重、排除明显不相关粗领域、按期刊层级排序、每来源保底、对展示条目补摘要；有没有意思、入哪一档由助手读摘要判断，不靠词表，也不读用户的项目。focus 留空是有意的：词表会让筛选往词上靠。no_fulltext_journals=学校未订阅的期刊（只能读摘要，选中后找预印本）。",
+  "journals": [],
+  "arxiv_categories": [],
+  "lines": {
+    "library": "写下你的入库口径：收哪些领域、哪些类型的文章、是否收综述和理论文章。",
+    "reading": "写下每日推荐的口径：数量、范围、什么算值得看。",
+    "picks": "写下挑选和写推荐理由的要求。"
+  },
+  "focus": [],
+  "exclude": [],
+  "exclude_doi_patterns": [],
+  "tier_weight": {
+    "0": 0,
+    "1": 10,
+    "2": 5
+  },
+  "per_source_min": 8,
+  "window_days": 7,
+  "per_journal": 40,
+  "arxiv_max": 0,
+  "arxiv_slots": 0,
+  "list_size": 130,
+  "backfill": {
+    "_说明": "老文献回填：OpenAlex 主题分类（算法标签，不是词表）× 上面的期刊清单，按被引降序，程序粗筛后分页给题名。T10275=2D 材料，T10083=样品。",
+    "topics": [
+      "T10275",
+      "T10083",
+      "T10657",
+      "T10382",
+      "T10037",
+      "T10049"
+    ],
+    "max_per_year": 1500
+  },
+  "daily_recommendations": {
+    "enabled": false,
+    "not_before_hour": 8,
+    "actor": "codex"
+  },
+  "no_fulltext_journals": []
+}
